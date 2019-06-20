@@ -19,7 +19,7 @@ const char* ssid = "your SSID";
 const char* password = "your password";
 
 // MQTT configuration
-const char* mqtt_server = "your IP address";
+const char* mqtt_server = "your MQTT broker IP address";
 const char* mqtt_username = "";
 const char* mqtt_password = "";
 const char* mqtt_topic = "domoticz/in";

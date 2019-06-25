@@ -22,7 +22,7 @@ Domoticz needs to subscribe to the Mosquitto MQTT message broker that is now run
 * CA Filename: empty (not used here?)
 To finish press 'Add'.
 
-The appropriate Arduino NodeMCU board package and libraries has also to be installed.
+To create the sketch for the NodeMCU the appropriate Arduino NodeMCU board package and libraries has also to be installed.
 Common for both examples above:
 * Sketch in Adruino IDE -> Tools -> Board -> Boards Manager to download "esp8266 by ESP 8266 Community"
 * Sketch in Adruino IDE -> Tools -> Board and select NodeMCU 1.0 (We have NodeMCU v2, but we select as 1.0. Focus on inside of paranthesis ESP-12E is more important than this)

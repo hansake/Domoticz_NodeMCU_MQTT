@@ -8,6 +8,9 @@ NodeMCU_MQTT_1-Wire_temp/NodeMCU_MQTT_temp.ino reads temperature from a 1-Wire s
 These examples are using Domoticz installed on a Raspberry Pi.
 In addition to Domoticz a MQTT broker has to be installed.
 The Mosquitto MQTT broker is installed on the same Raspberry Pi.
-The installation is described here: https://mosquitto.org/
+The installation is described in the download section of https://mosquitto.org/
 
 The appropriate Arduino NodeMCU board package and libraries has also to be installed.
+Common for both examples above:
+ Adruino IDE -> Tools -> Board -> Boards Manager to download "esp8266 by ESP 8266 Community"
+ Adruino IDE -> Tools -> Board and select NodeMCU 1.0 (We have NodeMCU v2, but we select as 1.0. Focus on inside of paranthesis ESP-12E is more important than this)

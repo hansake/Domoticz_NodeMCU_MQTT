@@ -1,4 +1,4 @@
-Create two Dummy Virtual temperature sensors.
+Create two Dummy Virtual temperature sensors in Domoticz.
 
 * Under Setup/Hardware add a device of type: "Dummy (Does nothing, use for virtual switches only)" with the name "Virtual Sensors".
 * In the corresponding entry of your just created "Dummy" hardware, click the "Create Virtual Sensors" button that appear following the type. Then enter the name "Temperatur till AC" and set Sensor Type: Temperature.

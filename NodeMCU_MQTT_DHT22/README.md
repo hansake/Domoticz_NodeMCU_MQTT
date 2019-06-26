@@ -4,5 +4,5 @@ Create Virtual Sensor for temperature and humidity in Domoticz
 * Under Setup/Devices, get the "idx" number of your device which is 321 in this installation.
 
 The following libraries should be added to the Arduino IDE to handle the DHT interface:
-* Adafruit Unified Sensor
-* DHT sensor library for ESPx - Works better than the standard DHT sensor library from Adafruit
+* Sketch in Adruino IDE -> Include Library -> Manage Libraries and select to instal: Adafruit Unified Sensor
+* Sketch in Adruino IDE -> Include Library -> Manage Libraries and select to instal: DHT sensor library for ESPx - Works better than the standard DHT sensor library from Adafruit
